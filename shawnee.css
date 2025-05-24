@@ -27,7 +27,9 @@ body {
   }
   
   a:hover {
-    text-decoration: underline;
+    background-color: darkmagenta;
+    padding: 5px;
+    border-radius: 5px;
   }
 
   body {
@@ -64,3 +66,33 @@ body {
     line-height: 1.6;
     text-align: center;
   }
+
+  .photo-album {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .photo-album h1 {
+    margin-bottom: 30px;
+    color: black;
+  }
+  
+  .photo-text-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+  }
+  
+  .first-photo img {
+    max-width: 500px;
+    border-radius: 10px;
+  }
+  
+  
