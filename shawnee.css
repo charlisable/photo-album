@@ -6,7 +6,16 @@ body {
   
   h1 {
     color: black;
+    text-align: center;
   }
+
+  ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+}
   
   p {
     font-size: 18px;
@@ -14,10 +23,76 @@ body {
   
   a {
     color: pink;
-    background-color: #333;
     text-decoration: none;
   }
   
   a:hover {
-    text-decoration: underline;
+    background-color: rgb(249, 135, 154);
+    padding: 5px;
+    border-radius: 5px;
   }
+
+  body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+  
+  
+  .photo-box {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .photo-box img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  .text-box {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  .photo-album {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .photo-album h1 {
+    margin-bottom: 30px;
+    color: black;
+  }
+  
+  .photo-text-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+  }
+  
+  .first-photo img {
+    max-width: 500px;
+    border-radius: 10px;
+  }
+  
+  
