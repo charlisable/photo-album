@@ -65,13 +65,35 @@ body {
 }
 
 .intro-box img {
-  width: 600px;
+  width: 350px;
   height: auto;
   border-radius: 12px;
   margin-bottom: 16px;
 }
 
+.sunset-box {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 100%;
+  width: 100%;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-bottom: 25px;
+  padding-right: 30px;
+}
 
+.sunset-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sunset-box img {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
 
 section {
     display: grid;
@@ -84,6 +106,36 @@ section {
 }
 
 .food-section img {
+    width: 100%;
+    max-width:500px;
+    height: auto;
+    display: block;
+}
+
+  .food-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+}
+
+.food-section img {
+    width: 100%;
+    max-width:500px;
+    height: auto;
+    display: block;
+}
+.bridge-photo img{
+  size: 100px;
+  width: 700px;
+}
+
+.bridge-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+}
+
+.bridge-section img {
     width: 100%;
     max-width:500px;
     height: auto;
